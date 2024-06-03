@@ -1,21 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[2]:
-
-
-# pip install flirt
-
-
-# In[1]:
-
-
-# pip install xgboost
-
-
-# In[5]:
-
-
 pip install numpy numba pandas scikit-learn tensorflow matplotlib xgboost flirt
 
 
@@ -327,36 +309,3 @@ keras_class = classification_report(y_test, bins)
 print("Classification Report:")
 print (keras_class)
 
-
-# <!-- #features_df['time'] = features_df['datetime'].dt.strftime("%Y-%m-%d %H:%M:%S")
-# 
-# #assign the first time available 
-# first_dt = features_df.iloc[0]['datetime']
-# 
-# #bs = base_start.replace(".", ":")
-# #base_s = "00:" + "0" + bs
-# #b_mins = int(base_start.split(".")[0])
-# #b_secs = int(base_start.split(".")[1])
-# 
-# first_time = dt.strftime(first_dt, "%Y-%m-%d %H:%M:%S")
-# time_f = dt.strptime(first_time, "%Y-%m-%d %H:%M:%S")
-# 
-# #Change the base start into a proper timestamp
-# #base_stimestamp = pd.Timestamp(base_s).strftime("%Y-%m-%d %H:%M:%S")
-# #baseline_s = dt.strptime(base_stimestamp, "%Y-%m-%d %H:%M:%S")
-# 
-# 
-# #change baseline start into a datetime type
-# #baseline_start = np.datetime64(baseline_s)
-# 
-# #Need to fix this ASAP -- convert to seconds 
-# start_limit = time_f + timedelta(minutes = int(b_st[0]), seconds = int(b_st[1]))
-# 
-# #end_limit = time_f + timedelta(minutes = 26, seconds = 32)
-# 
-# #stress_s_limit = time_f + timedelta(minutes = 39, seconds = 55)
-# #stress_e_limit = time_f + timedelta(minutes = 50, seconds = 30)
-# 
-# print(end_limit)
-# print(first_time)
-# print(time_f) -->
