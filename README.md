@@ -11,6 +11,10 @@ Buiilt a stress detection algorithm to classify between stress and not-stressed 
 
 The algorithm takes into account physiological and motion data, recorded from both a wrist- and a chest-worn device.
 
+## Usage
+The code uses the FLIRT package to calculate features from wearable data such as that from your smartwatch or smart ring: https://flirt.readthedocs.io/en/latest/index.html
+
+
 
 ## Data
 The dataset used in the script is from the University of Siegen under the name WESAD (Multimodal Dataset for Wearable Stress and Affect Detection) : https://ubicomp.eti.uni-siegen.de/home/datasets/icmi18/
