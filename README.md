@@ -13,7 +13,7 @@ The algorithm takes into account physiological and motion data, recorded from bo
 
 
 ## Data
-The dataset used in the script is from the University of Siegen under the name WESAD (Multimodal Dataset for Wearable Stress and Affect Detection). 
+The dataset used in the script is from the University of Siegen under the name WESAD (Multimodal Dataset for Wearable Stress and Affect Detection) : https://ubicomp.eti.uni-siegen.de/home/datasets/icmi18/
 
 It is a publically available dataset for wearable stress and affect detection that includes the following sensors: blood volume pulse, electrocardiogram, electrodermal activity, electromyogram, respiration, body temperature, and three-axis acceleration. 
 
